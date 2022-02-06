@@ -6,7 +6,7 @@
   import Nav from '../components/Nav.svelte';
   import Footer from '../components/Footer.svelte';
   import GoogleAnalytics from 'sapper-google-analytics/GoogleAnalytics.svelte';
-  import { stores } from '@sapper/app';
+  import { getStores, navigating, page, session, updated } from '$app/stores';
   import LogRocket from 'logrocket';
   import Bugsnag from '@bugsnag/js';
 
@@ -47,7 +47,7 @@
 <Footer {year} />
 
 <svelte:head>
-  <GoogleAnalytics {stores} id={ga_measurment_id} />
+  <GoogleAnalytics {getStores} id={ga_measurment_id} />
 </svelte:head>
 
 <style global lang="postcss">
