@@ -1,7 +1,7 @@
 FROM node:14-buster
 
-LABEL name="Sapper"
-LABEL version="2.0.0"
+LABEL name="SvelteKit"
+LABEL version="1.0.0"
 
 ARG INSTALL_ZSH="true"
 ARG USERNAME=node
@@ -13,7 +13,7 @@ ARG NVM_DIR=/usr/local/share/nvm
 ARG ENABLE_NONROOT_DOCKER="true"
 ARG SOURCE_SOCKET=/var/run/docker-host.sock
 ARG TARGET_SOCKET=/var/run/docker.sock
-ARG NODE_VERSION=v14.15.0
+ARG NODE_VERSION=v14.18.1
 ARG UPDATE_RC="true"
 # Docker Compose version
 ARG COMPOSE_VERSION=1.24.0

@@ -14,9 +14,7 @@
 	"mounts": [
 		"source=ext,target=/home/node/.vscode-server/extensions,type=volume",
 		"source=ext-insiders,target=/home/node/.vscode-server-insiders/extensions,type=volume",
-		"source=vs-kubernetes,target=/home/node/.vs-kubernetes,type=volume",
-		"source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind",
-		"source=/home/russell/.kube,target=/home/node/.kube,type=bind"
+		"source=/var/run/docker.sock,target=/var/run/docker-host.sock,type=bind"
 	],
 	"overrideCommand": false,
 	"extensions": [
@@ -56,8 +54,6 @@
 		"mikestead.dotenv",
 		"usernamehw.errorlens",
 		"ldez.ignore-files",
-		"ms-kubernetes-tools.vscode-kubernetes-tools",
-		"ms-kubernetes-tools.kind-vscode",
 		"eg2.vscode-npm-script",
 		"christian-kohler.npm-intellisense",
 		"mindaro.mindaro",
