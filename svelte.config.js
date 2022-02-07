@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-auto';
+import adapter from '@sveltejs/adapter-node';
 import preprocess from 'svelte-preprocess';
 import tailwind from 'tailwindcss';
 import autoprefixer from 'autoprefixer';
@@ -9,15 +9,12 @@ const config = {
 	// for more information about preprocessors
 	preprocess: preprocess({
 		postcss: {
-			plugins: [
-				tailwind, 
-				autoprefixer
-			]
+			plugins: [tailwind, autoprefixer]
 		}
 	}),
 
 	kit: {
-		adapter: adapter(),
+		adapter: adapter()
 
 		// hydrate the <div id="svelte"> element in src/app.html
 		// target: '#svelte'
