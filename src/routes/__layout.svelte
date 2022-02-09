@@ -11,7 +11,6 @@
 	import LogRocket from 'logrocket';
 	import Bugsnag from '@bugsnag/js';
 
-	export let segment: string = 'home';
 	export let year: number = new Date().getFullYear();
 	let ga_measurment_id = 'UA-114644797-1';
 
@@ -27,7 +26,7 @@
 	};
 </script>
 
-<Nav {segment} />
+<Nav />
 
 <section class="relative block hero-home" />
 
