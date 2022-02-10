@@ -13,7 +13,7 @@ ARG NVM_DIR=/usr/local/share/nvm
 ARG ENABLE_NONROOT_DOCKER="true"
 ARG SOURCE_SOCKET=/var/run/docker-host.sock
 ARG TARGET_SOCKET=/var/run/docker.sock
-ARG NODE_VERSION=v14.18.1
+ARG NODE_VERSION=v14.19.0
 ARG UPDATE_RC="true"
 # Docker Compose version
 ARG COMPOSE_VERSION=1.24.0
