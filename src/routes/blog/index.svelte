@@ -1,19 +1,24 @@
 <script context="module" lang="ts">
-	import ContentCard from './../../components/tails/content-card.svelte';
-	import BlogPosts from './../../components/tails/blog-posts.svelte';
+	/** @type {import('@sveltejs/kit').Load} */
 	import posts from '$lib/data/feed.json';
+
+	export function load() {
+		const feed = Object.values(posts.items);
+		const firstPost = feed.shift();
+		const secondPost = feed.shift();
+		const thirdPost = feed.shift();
+		const fourthPost = feed.shift();
+
+		return { props: { firstPost, secondPost, thirdPost, fourthPost, feed } };
+	}
 </script>
 
 <script lang="ts">
 	import { format } from 'date-fns';
+	import ContentCard from './../../components/tails/content-card.svelte';
+	import BlogPosts from './../../components/tails/blog-posts.svelte';
 
-	export let firstPost = posts.items.shift();
-	export let secondPost = posts.items.shift();
-	export let thirdPost = posts.items.shift();
-	export let fourthPost = posts.items.shift();
-	export let feed = posts.items;
-
-	/*	export let firstPost: {
+	export let firstPost: {
 		id: string;
 		image: string;
 		title: string;
@@ -54,20 +59,14 @@
 	};
 
 	export let feed: {
-		version: string;
-		description: string;
-		home_page_url: string;
-		feed_url: string;
-		items: {
-			id: string;
-			image: string;
-			title: string;
-			content_text: string;
-			content_html: string;
-			date_published: string;
-			tags: string[];
-		}[];
-	};*/
+		id: string;
+		image: string;
+		title: string;
+		content_text: string;
+		content_html: string;
+		date_published: string;
+		tags: string[];
+	}[];
 
 	function trunc(text: string, max: number) {
 		return text.substring(0, max - 1) + (text.length > max ? '&hellip;' : '');
@@ -94,12 +93,8 @@
 	<div class="py-2 p-8">
 		<ul>
 			{#each feed as { id, title, date_published, content_text }}
-				<!-- we're using the non-standard `rel=prefetch` attribute to
-				tell Sapper to load the data for the page as soon as
-				the user hovers over the link or taps it, instead of
-				waiting for the 'click' event -->
 				<li class="mb-12">
-					<h2><a rel="prefetch" href={`/blog/${id}`}>{title}</a></h2>
+					<h2><a sveltekit:prefetch href={`/blog/${id}`}>{title}</a></h2>
 					<div class="pb-4">
 						<time>{format(new Date(date_published), 'PPP')}</time>
 					</div>
