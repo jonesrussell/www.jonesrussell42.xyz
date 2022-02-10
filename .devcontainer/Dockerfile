@@ -30,6 +30,8 @@ RUN export DEBIAN_FRONTEND=noninteractive \
     && bash /tmp/library-scripts/docker-debian.sh "${ENABLE_NONROOT_DOCKER}" "${SOURCE_SOCKET}" "${TARGET_SOCKET}" "${USERNAME}" \
     # Clean up
     && apt-get autoremove -y && apt-get clean -y && rm -rf /var/lib/apt/lists/* /root/.gnupg /tmp/library-scripts \
+    # Upgrade npm
+    && npm install -g npm \
     #
     # Install tslint and typescript globally
     && npm install -g tslint eslint typescript \
