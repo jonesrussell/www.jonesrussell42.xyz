@@ -8,9 +8,7 @@
 		"terminal.integrated.shell.linux": "/bin/zsh"
 	},
 	"postCreateCommand": "npm install",
-	"runArgs": [
-		"--init"
-	],
+	"runArgs": ["--init"],
 	"mounts": [
 		"source=ext,target=/home/node/.vscode-server/extensions,type=volume",
 		"source=ext-insiders,target=/home/node/.vscode-server-insiders/extensions,type=volume",
@@ -63,8 +61,6 @@
 		"esbenp.prettier-vscode",
 		"gruntfuggly.todo-tree",
 		"mutantdino.resourcemonitor",
-		"ipedrazas.kubernetes-snippets",
-		"lunuan.kubernetes-templates",
 		"jasonnutter.search-node-modules",
 		"ziyasal.vscode-open-in-github",
 		"rbuckton.tsserver-live-reload",
@@ -76,8 +72,5 @@
 	// "shutdownAction": "none",
 	// Uncomment to connect as a non-root user. See https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node",
-	"forwardPorts": [
-		3000,
-		10000
-	]
+	"forwardPorts": [3000, 10000]
 }
