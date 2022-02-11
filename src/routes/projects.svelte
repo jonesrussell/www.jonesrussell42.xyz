@@ -1,8 +1,10 @@
 <script context="module" lang="ts">
-	export function preload(_page: any, session: any): { href: string } {
-		const { BELL_CREEK_URL } = session;
-		const href: string = BELL_CREEK_URL;
-		return { href };
+	import { variables } from '$lib/variables';
+
+	export function load(): { props: { href: string } } {
+		const href: string = variables.bellCreekUrl;
+
+		return { props: { href } };
 	}
 </script>
 
