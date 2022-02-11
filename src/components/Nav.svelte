@@ -3,13 +3,13 @@
 	import Fa from 'svelte-fa';
 	import { fade } from 'svelte/transition';
 	import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
-	import logo from '../../static/cartoon-russell.jpg';
 	import {
-		faAddressCard,
 		faBars,
 		faBlog,
-		faProjectDiagram
+		faProjectDiagram,
+		faAddressCard
 	} from '@fortawesome/free-solid-svg-icons';
+	import logo from '../../static/cartoon-russell.jpg';
 
 	const navId = 'collapse-navbar';
 	const toggleNavbar = () => {
