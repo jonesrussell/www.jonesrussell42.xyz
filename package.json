@@ -1,6 +1,11 @@
 {
 	"name": "www.jonesrussell42.xyz",
 	"version": "0.1.0",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/jonesrussell/skit.git"
+	},
+	"license": "MIT",
 	"scripts": {
 		"dev": "svelte-kit dev",
 		"build": "svelte-kit build",
