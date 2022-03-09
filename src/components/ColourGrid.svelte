@@ -113,7 +113,8 @@
     ];
 </script>
 
-<div class="grid grid-rows-10 grid-flow-col gap-3">
+<div class="grid grid-rows-10 grid-flow-col gap-2 place-items-center">
+    
 	<div />
 	<div>Red</div>
 	<div>Orange</div>
@@ -139,6 +140,6 @@
 
 <style lang="postcss">
 	.grid > div {
-		@apply px-4 py-4 rounded-md;
+		@apply px-2 py-2 rounded-md;
 	}
 </style>

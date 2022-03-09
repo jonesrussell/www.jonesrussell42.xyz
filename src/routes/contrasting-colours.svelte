@@ -1,5 +1,5 @@
 <script type="ts">
-	import ColourCard from '../components/ColourGrid.svelte';
+	import ColourGrid from '../components/ColourGrid.svelte';
 </script>
 
 <svelte:head>
@@ -8,4 +8,4 @@
 
 <h1>Contrasting Colours</h1>
 
-<ColourCard />
+<ColourGrid />

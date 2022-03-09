@@ -7,12 +7,12 @@
 <div>{title}</div>
 
 {#each fg as item}
-<div class="bg-{bg} fg-{item.color}">{item.see}</div>
+    <div class="bg-{bg} fg-{item.color} border-dashed border border-slate-500">{item.see}</div>
 {/each}
 
 <style lang="postcss">
 	div {
-		@apply px-4 py-4 rounded-md;
+		@apply px-4 py-2 rounded-md text-center align-middle;
 	}
 
 	.bg-red {
