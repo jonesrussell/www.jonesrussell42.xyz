@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Lato&display=swap');
 
 @import 'tailwindcss/base';
 /* @import "./base.pcss"; */
@@ -18,8 +18,9 @@ body {
 
 h1 {
 	@apply text-6xl font-normal leading-normal mt-4 mb-2 text-pink-800 px-8;
-	font-family: Dancing Script, cursive;
+	font-family: 'Hubballi', cursive;
 	font-weight: bold;
+	color: #2c272e;
 }
 
 h2 {
