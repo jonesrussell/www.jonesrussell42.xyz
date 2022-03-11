@@ -14,16 +14,18 @@
 	export let year: number = new Date().getFullYear();
 	let ga_measurment_id = 'UA-114644797-1';
 
-	LogRocket.init('herbig-haro/portfolio');
+	if (process.env.NODE_ENV === 'production') {
+		LogRocket.init('herbig-haro/portfolio');
 
-	if (!Bugsnag._client) {
-		Bugsnag.start({ apiKey: '615a4defdc1b405abb1743b6cb33843d', logger: null });
+		if (!Bugsnag._client) {
+			Bugsnag.start({ apiKey: '615a4defdc1b405abb1743b6cb33843d', logger: null });
+		}
+
+		Bugsnag.beforeNotify = (data: { metaData: { sessionURL: string | null } }) => {
+			data.metaData.sessionURL = LogRocket.sessionURL;
+			return data;
+		};
 	}
-
-	Bugsnag.beforeNotify = (data: { metaData: { sessionURL: string | null } }) => {
-		data.metaData.sessionURL = LogRocket.sessionURL;
-		return data;
-	};
 </script>
 
 <Nav />
