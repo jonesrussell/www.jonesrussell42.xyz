@@ -1,13 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Hubballi&family=Lato&display=swap');
 
 @import 'tailwindcss/base';
-/* @import "./base.pcss"; */
-
 @import 'tailwindcss/components';
-/* @import "./components.pcss"; */
-
 @import 'tailwindcss/utilities';
-/* @import "./utilities.pcss"; */
 
 body {
 	background-color: #000000;
@@ -21,6 +16,7 @@ h1 {
 	font-family: 'Hubballi', cursive;
 	font-weight: bold;
 	color: #2c272e;
+	line-height: 1;
 }
 
 h2 {
