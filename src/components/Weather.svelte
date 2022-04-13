@@ -1,31 +1,25 @@
 <div
-  class="w-64 cursor-pointer border b-gray-400 rounded flex flex-col
-  justify-center items-center text-center p-6 bg-white">
-  <div class="text-md font-bold flex flex-col text-gray-900">
-    <span class="uppercase">Today</span>
-    <span class="font-normal text-gray-700 text-sm">July 29</span>
-  </div>
-  <div class="w-32 h-32 flex items-center justify-center">
-    <svg
-      class="h-20"
-      viewBox="0 0 81 73"
-      version="1.1"
-      xmlns="http://www.w3.org/2000/svg"
-      xmlns:xlink="http://www.w3.org/1999/xlink">
-      <g
-        id="Page-1"
-        stroke="none"
-        stroke-width="1"
-        fill="none"
-        fill-rule="evenodd">
-        <g
-          id="Desktop-HD"
-          transform="translate(-174.000000, -308.000000)"
-          fill-rule="nonzero">
-          <g id="Group" transform="translate(95.000000, 222.000000)">
-            <g id="2" transform="translate(79.000000, 86.000000)">
-              <path
-                d="M35.288454,26.4312368 C34.8062502,27.5960191
+	class="w-64 cursor-pointer border b-gray-400 rounded flex flex-col
+  justify-center items-center text-center p-6 bg-white"
+>
+	<div class="text-md font-bold flex flex-col text-gray-900">
+		<span class="uppercase">Today</span>
+		<span class="font-normal text-gray-700 text-sm">July 29</span>
+	</div>
+	<div class="w-32 h-32 flex items-center justify-center">
+		<svg
+			class="h-20"
+			viewBox="0 0 81 73"
+			version="1.1"
+			xmlns="http://www.w3.org/2000/svg"
+			xmlns:xlink="http://www.w3.org/1999/xlink"
+		>
+			<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+				<g id="Desktop-HD" transform="translate(-174.000000, -308.000000)" fill-rule="nonzero">
+					<g id="Group" transform="translate(95.000000, 222.000000)">
+						<g id="2" transform="translate(79.000000, 86.000000)">
+							<path
+								d="M35.288454,26.4312368 C34.8062502,27.5960191
                 33.4711041,28.1493583 32.3063218,27.6671545
                 C31.1415395,27.1849507 30.5882004,25.8498046
                 31.0704042,24.6850223 C33.990421,17.6316069
@@ -65,10 +59,11 @@
                 29.2835969,15.8160409 L26.0555007,12.5879447
                 C25.1640865,11.6965305 25.1640865,10.2512627
                 26.0555007,9.35984851 L26.0555007,9.35984851 Z"
-                id="Shape"
-                fill="#FECA57" />
-              <path
-                d="M45.138293,37.2826087 C44.3551693,37.2826087
+								id="Shape"
+								fill="#FECA57"
+							/>
+							<path
+								d="M45.138293,37.2826087 C44.3551693,37.2826087
                 43.6267158,36.8811485 43.2084767,36.2190618
                 C39.4665187,30.2954152 32.9620213,26.6304348
                 25.826087,26.6304348 C14.4802372,26.6304348 5.2826087,35.8280633
@@ -84,85 +79,82 @@
                 11.9589373,22.0652174 25.826087,22.0652174
                 C34.1091478,22.0652174 41.7014994,26.1099628
                 46.3580943,32.7173913 Z"
-                id="Path-Copy"
-                fill="#0ABDE3" />
-            </g>
-          </g>
-        </g>
-      </g>
-    </svg>
-  </div>
-  <p class="text-gray-700 mb-2">Partly cloud</p>
-  <div class="text-3xl font-bold text-gray-900 mb-6">
-    32º
-    <span class="font-normal text-gray-700 mx-1">/</span>
-    20º
-  </div>
-  <div class="flex justify-between w-full">
-    <div class="flex items-center text-gray-700 px-2">
-      <svg
-        class="mr-2 h-4"
-        viewBox="0 0 11 18"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink">
-        <g
-          id="Page-1"
-          stroke="none"
-          stroke-width="1"
-          fill="none"
-          fill-rule="evenodd">
-          <g
-            id="Desktop-HD"
-            transform="translate(-120.000000, -479.000000)"
-            fill="#60A2D7"
-            fill-rule="nonzero">
-            <g id="Group" transform="translate(95.000000, 222.000000)">
-              <g id="Group-3" transform="translate(25.000000, 256.774194)">
-                <g id="028-drop" transform="translate(0.000000, 0.225806)">
-                  <path
-                    d="M11,11.9334341 C11,15.0552582 8.53750272,17.5862069
+								id="Path-Copy"
+								fill="#0ABDE3"
+							/>
+						</g>
+					</g>
+				</g>
+			</g>
+		</svg>
+	</div>
+	<p class="text-gray-700 mb-2">Partly cloud</p>
+	<div class="text-3xl font-bold text-gray-900 mb-6">
+		32º
+		<span class="font-normal text-gray-700 mx-1">/</span>
+		20º
+	</div>
+	<div class="flex justify-between w-full">
+		<div class="flex items-center text-gray-700 px-2">
+			<svg
+				class="mr-2 h-4"
+				viewBox="0 0 11 18"
+				version="1.1"
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+			>
+				<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					<g
+						id="Desktop-HD"
+						transform="translate(-120.000000, -479.000000)"
+						fill="#60A2D7"
+						fill-rule="nonzero"
+					>
+						<g id="Group" transform="translate(95.000000, 222.000000)">
+							<g id="Group-3" transform="translate(25.000000, 256.774194)">
+								<g id="028-drop" transform="translate(0.000000, 0.225806)">
+									<path
+										d="M11,11.9334341 C11,15.0552582 8.53750272,17.5862069
                     5.5,17.5862069 C2.46249728,17.5862069 0,15.0552582
                     0,11.9334341 C0,7.58026159 5.5,0 5.5,0 C5.5,0 11,7.58026159
                     11,11.9334341 L11,11.9334341 Z"
-                    id="Path" />
-                </g>
-              </g>
-            </g>
-          </g>
-        </g>
-      </svg>
-      100 l/m
-      <sup>2</sup>
-    </div>
-    <div class="flex items-center text-gray-700 px-2">
-      <svg
-        class="mr-2 h-4 w-4"
-        viewBox="0 0 12 21"
-        version="1.1"
-        xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink">
-        <g
-          id="Page-1"
-          stroke="none"
-          stroke-width="1"
-          fill="none"
-          fill-rule="evenodd">
-          <g
-            id="Desktop-HD"
-            transform="translate(-201.000000, -480.000000)"
-            fill="#0ABDE3"
-            fill-rule="nonzero">
-            <g id="Group" transform="translate(95.000000, 222.000000)">
-              <g id="Group-3" transform="translate(25.000000, 256.774194)">
-                <g
-                  id="wind"
-                  transform="translate(87.500000, 11.225806) rotate(-90.000000)
+										id="Path"
+									/>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</svg>
+			100 l/m
+			<sup>2</sup>
+		</div>
+		<div class="flex items-center text-gray-700 px-2">
+			<svg
+				class="mr-2 h-4 w-4"
+				viewBox="0 0 12 21"
+				version="1.1"
+				xmlns="http://www.w3.org/2000/svg"
+				xmlns:xlink="http://www.w3.org/1999/xlink"
+			>
+				<g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+					<g
+						id="Desktop-HD"
+						transform="translate(-201.000000, -480.000000)"
+						fill="#0ABDE3"
+						fill-rule="nonzero"
+					>
+						<g id="Group" transform="translate(95.000000, 222.000000)">
+							<g id="Group-3" transform="translate(25.000000, 256.774194)">
+								<g
+									id="wind"
+									transform="translate(87.500000, 11.225806) rotate(-90.000000)
                   translate(-87.500000, -11.225806) translate(77.000000,
-                  5.225806)">
-                  <g id="w25">
-                    <path
-                      d="M16.222113,3.9997453 C16.1020238,4.11833549
+                  5.225806)"
+								>
+									<g id="w25">
+										<path
+											d="M16.222113,3.9997453 C16.1020238,4.11833549
                       16.0351226,4.28256699 16.0372726,4.45349848
                       C16.0394226,4.62442997 16.1104323,4.78683812
                       16.2334644,4.90221395 C16.6379853,5.28943966
@@ -191,9 +183,10 @@
                       17.1482801,3.98916536 C16.8847573,3.74276899
                       16.4802155,3.74739022 16.222113,3.9997453
                       L16.222113,3.9997453 Z"
-                      id="Path" />
-                    <path
-                      d="M0,7.255721 C0,7.04623824 0.165110565,6.87695925
+											id="Path"
+										/>
+										<path
+											d="M0,7.255721 C0,7.04623824 0.165110565,6.87695925
                       0.369434889,6.87695925 L18.7214742,6.87695925
                       C18.9252826,6.87695925 19.0909091,7.04623824
                       19.0909091,7.255721 L19.0909091,8.08518809
@@ -201,32 +194,34 @@
                       18.7214742,8.46394984 L0.369434889,8.46394984
                       C0.165401634,8.46394984 0,8.29437243 0,8.08518809
                       L0,7.255721 Z"
-                      id="Path" />
-                    <path
-                      d="M0.369434889,8.46394984 C0.165401634,8.46394984
+											id="Path"
+										/>
+										<path
+											d="M0.369434889,8.46394984 C0.165401634,8.46394984
                       0,8.29437243 0,8.08518809 L0,0.378761755 C0,0.169278997
                       0.165110565,0 0.369434889,0 L1.17847666,0 C1.38228501,0
                       1.54791155,0.169278997 1.54791155,0.378761755
                       L1.54791155,8.08518809 C1.54791155,8.29414185
                       1.38280098,8.46394984 1.17847666,8.46394984
                       L0.369434889,8.46394984 Z"
-                      id="Path" />
-                  </g>
-                  <path
-                    d="M4.108,8.53448276 C3.91028206,8.53448276 3.75,8.3634922
+											id="Path"
+										/>
+									</g>
+									<path
+										d="M4.108,8.53448276 C3.91028206,8.53448276 3.75,8.3634922
                     3.75,8.15256466 L3.75,0.381918103 C3.75,0.170689655 3.91,0
                     4.108,0 L4.892,0 C5.0895,0 5.25,0.170689655 5.25,0.381918103
                     L5.25,8.15256466 C5.25,8.3632597 5.09,8.53448276
                     4.892,8.53448276 L4.108,8.53448276 Z"
-                    id="Path" />
-                </g>
-              </g>
-            </g>
-          </g>
-        </g>
-      </svg>
-      20 km/h
-    </div>
-  </div>
-
+										id="Path"
+									/>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</svg>
+			20 km/h
+		</div>
+	</div>
 </div>
