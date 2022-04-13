@@ -2,7 +2,7 @@
 	$: email = '';
 	$: message = '';
 
-	let buttonDisabled: boolean = false;
+	let buttonDisabled = false;
 
 	const contactSubmit = async () => {
 		buttonDisabled = true;

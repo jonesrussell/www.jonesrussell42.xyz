@@ -1,5 +1,5 @@
 <script lang="ts">
-	let open: boolean = false;
+	let open = false;
 
 	const openTrue = () => {
 		open = true;

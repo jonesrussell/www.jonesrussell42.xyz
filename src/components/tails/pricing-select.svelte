@@ -1,5 +1,5 @@
 <script lang="ts">
-	let toggle: string = 'basic';
+	let toggle = 'basic';
 
 	const toggleBasic = () => {
 		toggle = 'basic';

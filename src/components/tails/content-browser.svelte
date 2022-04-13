@@ -1,8 +1,8 @@
 <script lang="ts">
-	export let title: string = 'Awesome Features';
-	export let subtitle: string = 'Awesome Features<br />for Everyone to Enjoy.';
-	export let cta: string = 'View All Features';
-	export let href: string = '#';
+	export let title = 'Awesome Features';
+	export let subtitle = 'Awesome Features<br />for Everyone to Enjoy.';
+	export let cta = 'View All Features';
+	export let href = '#';
 </script>
 
 <div class="px-8 my-4 mx-auto pb-8 flex items-center min-w-screen bg-white">

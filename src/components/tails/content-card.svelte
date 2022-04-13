@@ -2,10 +2,10 @@
 	import { format } from 'date-fns';
 
 	export let date: Date = new Date();
-	export let title: string = 'Your Next Great Idea';
-	export let href: string = '#';
-	export let link_text: string = 'Check it out';
-	export let src: string = 'https://blog.jonesrussell42.xyz/assets/img/laravel.png';
+	export let title = 'Your Next Great Idea';
+	export let href = '#';
+	export let link_text = 'Check it out';
+	export let src = 'https://blog.jonesrussell42.xyz/assets/img/laravel.png';
 </script>
 
 <div

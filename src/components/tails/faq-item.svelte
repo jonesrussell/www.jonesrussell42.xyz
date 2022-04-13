@@ -1,5 +1,5 @@
 <script lang="ts">
-	export let question: string = '';
+	export let question = '';
 </script>
 
 <div

@@ -2,7 +2,7 @@
 	import Fa from 'svelte-fa';
 	//import { IconDefinition } from "@fortawesome/fontawesome-svg-core";
 
-	export let title: string = 'Feature';
+	export let title = 'Feature';
 	// @TODO IconDefinition? instead of any
 	export let icon: any;
 </script>

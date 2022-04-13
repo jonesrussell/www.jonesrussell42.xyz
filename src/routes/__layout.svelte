@@ -1,7 +1,3 @@
-<script context="module">
-	export const preload = () => {};
-</script>
-
 <script lang="ts">
 	import '../app.css';
 	import Nav from '../components/Nav.svelte';

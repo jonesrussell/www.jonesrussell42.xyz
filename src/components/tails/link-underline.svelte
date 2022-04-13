@@ -1,5 +1,5 @@
 <script lang="ts">
-	let hover: boolean = false;
+	let hover = false;
 </script>
 
 <div class="flex justify-center items-center  min-w-screen bg-white">

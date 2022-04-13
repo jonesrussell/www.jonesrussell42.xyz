@@ -1,11 +1,11 @@
 <script lang="ts">
 	import { format } from 'date-fns';
 
-	export let base: string = 'https://blog.jonesrussell42.xyz/';
+	export let base = 'https://blog.jonesrussell42.xyz/';
 	export let date: Date = new Date();
-	export let img: string = '';
-	export let title: string = '';
-	export let href: string = '';
+	export let img = '';
+	export let title = '';
+	export let href = '';
 
 	// Prepend 'base' to any images hosted at blog 'base'
 	img = img?.replace(/src="[^http](.*)"/, `src="${base}$1"`);

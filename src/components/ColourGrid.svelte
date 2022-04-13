@@ -15,7 +15,7 @@
 	let white = '#ffffff';
 	let gray = '#6b606e';
 
-	let currentFg: string = '';
+	let currentFg = '';
 
 	let bgRedFg = [
 		{ color: red, see: poor },

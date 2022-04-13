@@ -2,7 +2,7 @@
 	/** @type {import('@sveltejs/kit').Load} */
 	import { items } from '$lib/data/feed.json';
 
-	export function load({ params }): { props: {} } {
+	export function load({ params }): { props: { post } } {
 		const id: string = params.id;
 		const posts = Object.values(items);
 
