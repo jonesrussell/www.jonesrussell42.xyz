@@ -1,16 +1,21 @@
 <script context="module" lang="ts">
 	/** @type {import('@sveltejs/kit').Load} */
-	import { items } from '$lib/data/feed.json';
+	import { items as feed } from '$lib/data/feed.json';
 
 	export function load({ params }): { props: { post } } {
 		const id: string = params.id;
-		const posts = Object.values(items);
+		const posts = Object.values(feed);
 
 		let post = posts.filter((obj) => obj.id === id)[0];
 
-		post.content_html = post.content_html.replace(
-			/src="?!http(.*?)"/gi,
-			'src="https://blog.jonesrussell42.xyz/$1"'
+		const blogUrl = 'blog.jonesrussell42.xyz';
+		if (!post.image.includes(blogUrl)) {
+			post.image = `${blogUrl}${post.image}`;
+		}
+
+		post.content_html = post?.content_html.replace(
+			/src\s*=\s*"(.+?)"/gi,
+			`src="https://${blogUrl}/$1"`
 		);
 
 		return { props: { post } };
@@ -49,7 +54,7 @@
 
 <h1>{post.title}</h1>
 
-<article class="content">
+<article class="content px-8">
 	{@html post.content_html}
 </article>
 
@@ -70,6 +75,15 @@
 		font-weight: 700;
 		font-style: italic;
 	}
+
+	:global(h2) {
+		@apply px-0 !important;
+	}
+
+	:global(p, blockquote) {
+		@apply py-4 !important;
+	}
+
 	article {
 		@apply text-xl;
 	}
