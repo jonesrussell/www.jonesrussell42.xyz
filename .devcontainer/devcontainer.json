@@ -7,7 +7,7 @@
 	"settings": {
 		"terminal.integrated.shell.linux": "/bin/zsh"
 	},
-	"postCreateCommand": "npm install",
+	"postCreateCommand": "npm install -g npm && npm install",
 	"runArgs": ["--init"],
 	"mounts": [
 		"source=ext,target=/home/node/.vscode-server/extensions,type=volume",
