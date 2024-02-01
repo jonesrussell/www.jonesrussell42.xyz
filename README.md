@@ -18,7 +18,7 @@ I believe that every company is a software company. With extensive experience in
 
 ### THe project is built with
 
-![Svelte Logo](https://github.com/jonesrussell/www.jonesrussell42.xyz/raw/main/static/svelte-logo-cutout.svg)
+<img alt="Svelte logo" src="https://github.com/jonesrussell/www.jonesrussell42.xyz/raw/main/static/svelte-logo-cutout.svg" width="200" height="200" />
 
 
 ### Get In Touch
