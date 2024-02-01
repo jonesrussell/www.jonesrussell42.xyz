@@ -15,7 +15,11 @@ This website is built with SvelteJS and showcases my journey, skills, and projec
 
 I believe that every company is a software company. With extensive experience in Linux, Apache, MySQL, PHP (LAMP stack), CI/CD pipelines, Drupal / Laravel frameworks, and modern JavaScript ecosystems including Typescript and Webpack - I'm the developer you want to bring your vision to life.
 
-![Tech Stack Logos](link-to-logos-image)
+
+### THe project is built with
+
+![Svelte Logo](https://github.com/jonesrussell/www.jonesrussell42.xyz/raw/main/static/svelte-logo-cutout.svg)
+
 
 ### Get In Touch
 Find me on various platforms or [contact me directly](your-contact-link).
