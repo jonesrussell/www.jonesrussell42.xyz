@@ -1,6 +1,6 @@
 # Russell Jones - Full Stack Developer & DevOps Expert
 
-![Homepage Screenshot](https://imgur.com/yj2oV4v)
+[Homepage Screenshot](https://i.imgur.com/yj2oV4v.jpg)
 
 ## Ahnii! Welcome to My Personal Website's Repository
 
