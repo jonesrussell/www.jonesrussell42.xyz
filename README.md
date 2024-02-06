@@ -1,38 +1,29 @@
-# create-svelte
+# Russell Jones - Full Stack Developer & DevOps Expert
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
+![Homepage Screenshot](https://github.com/jonesrussell/www.jonesrussell42.xyz/raw/main/static/screenshot-homepage.jpg)
 
-## Creating a project
+## Ahnii! Welcome to My Personal Website's Repository
 
-If you're seeing this, you've probably already done this step. Congrats!
+This website is built with SvelteJS and showcases my journey, skills, and projects as a seasoned Full Stack Developer with over 20 years of experience.
 
-```bash
-# create a new project in the current directory
-npm init svelte@next
+### Features
 
-# create a new project in my-app
-npm init svelte@next my-app
-```
+- **Blog:** A collection of my thoughts, insights, and experiences in the tech world.
+- **Past Projects:** A showcase of my contributions and creations.
+- **Contact:** Reach out to me for collaborations, questions, or just to say hi!
 
-> Note: the `@next` is temporary
+### About Me
 
-## Developing
+I believe that every company is a software company. With extensive experience in Linux, Apache, MySQL, PHP (LAMP stack), CI/CD pipelines, Drupal / Laravel frameworks, and modern JavaScript ecosystems including Typescript and Webpack - I'm the developer you want to bring your vision to life.
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### THe project is built with
 
-```bash
-npm run dev
+<img alt="Svelte logo" src="https://github.com/jonesrussell/www.jonesrussell42.xyz/raw/main/static/svelte-logo-cutout.svg" width="100" height="100" />
 
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
+### Get In Touch
 
-## Building
+Find me on various platforms or [contact me directly](your-contact-link).
 
-Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
+[My Links](your-links-section) | [Privacy Policy](privacy-policy-link) | [Creative Tim](creative-tim-link)
 
-```bash
-npm run build
-```
-
-> You can preview the built app with `npm run preview`, regardless of whether you installed an adapter. This should _not_ be used to serve your app in production.
+© 2024 Russell Jones
