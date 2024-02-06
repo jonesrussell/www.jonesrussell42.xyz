@@ -11,7 +11,7 @@
 			"settings": {
 				"terminal.integrated.shell.linux": "/bin/bash"
 			},
-			"extensions": ["dbaeumer.vscode-eslint", "svelte.svelte-vscode"]
+			"extensions": ["dbaeumer.vscode-eslint", "svelte.svelte-vscode", "phind.phind"]
 		}
 	},
 	"postCreateCommand": "npm ci"
